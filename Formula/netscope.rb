@@ -1,8 +1,8 @@
 class Netscope < Formula
   desc "Live macOS network diagnostics for cloud gaming and microstuttering"
   homepage "https://github.com/alex-stampede/netscope"
-  url "https://github.com/alex-stampede/netscope/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "3d51ed207934986a9e298bf054a1a80e21857bb2904f87177c5297d0cc1e6750"
+  url "https://github.com/alex-stampede/netscope/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "452b76c34cae2a3c953e3fc861c15e64accb3bb7ee9a6645bc53307a8b3b51a1"
   license "MIT"
 
   depends_on "go" => :build

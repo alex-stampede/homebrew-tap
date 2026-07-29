@@ -5,8 +5,8 @@ class Netscope < Formula
   sha256 "603f51225e517fe9c150a957fe94303991bc08b3fd46e1d19d6d159c8a46853e"
   license "MIT"
 
-  depends_on :macos
   depends_on "go" => :build
+  depends_on :macos
 
   def install
     ldflags = "-s -w -X github.com/alex-stampede/netscope/cmd.version=#{version}"
